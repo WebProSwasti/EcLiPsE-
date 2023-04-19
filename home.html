@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<style>
+    .flex-container
+{
+    background-color: blueviolet;
+    display: flex;
+ 
+    padding-top: 10px;
+   justify-content: center; 
+   background-image:linear-gradient(to right, #fc4a1a 0%, #f7b733 100%);
+  /*justify-content: end; */
+ /* justify-content:space-evenly;
+  width: fit-content; */
+
+
+}
+
+.flex-container > div {
+
+    background-color: bisque;
+    margin: 10px;
+    padding: 30px;
+    
+    font-size: 32px;
+
+    text-align: center;
+}
+.div-con
+{
+background-color: coral;
+display: flex;
+height:600px;
+justify-content: center;
+align-items: center; 
+}
+.div-con > div{
+
+    font-size: 400px;
+    color:  rgba(247, 19, 19, 0.2);
+
+}
+
+.div-con div img{
+    display:inline-block;
+    transform:translatex(837px) translatey(-320px);
+   }
+   .div-con div{
+    transform:translatex(0px) translatey(282px);
+   }
+
+   .div-con div img{
+    transform:translatex(897px) translatey(-689px);
+   }
+   
+   /* Division */
+   .div-con div{
+    transform:translatex(6px) translatey(476px);
+    height:1167px;
+    width:1768px !important;
+   }
+   .flex-container div{
+    border-top-right-radius:9px;
+    border-bottom-right-radius:7px;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:9px;
+   }
+
+   .flex-container div:hover{
+    background-color:#f8ba9f;
+    box-shadow:0px 0px 7px 0px #ffffff;
+   }
+</style>
+<body>
+
+    <div class="flex-container">
+        <div>HOME</div>
+        <div>FILE</div>
+        <div>EDIT</div>
+        <div>CONTACT US</div>
+        <div>MORE</div>
+        <div>LOGIN</div>
+
+
+    </div>
+
+    <div class="div-con">
+        <div >
+            center
+            <img src="pict-removebg-preview.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
